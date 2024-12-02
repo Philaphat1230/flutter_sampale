@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/mycon.dart';
+import 'package:flutter_application_1/myscroll.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(MaterialApp(
+    home: MyScrliView(),
+  ));
 }
 
-  class MainApp extends StatefulWidget{
-    const MainApp({super.key});
-
-    Widget buil(BuildContext context){
-
-    }
-  }
